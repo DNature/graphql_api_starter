@@ -48,23 +48,23 @@
 
 ### Start Server and Connect TO database
 
-    ![Start Server](/assets/started_server.png)
+![Start Server](/assets/started_server.png)
 
 ### Register User Mutation
 
-    ![Register User Mutation](/assets/registerUser.png)
+![Register User Mutation](/assets/registerUser.png)
 
 ### Login User Mutation
 
-    ![Login User Mutation](/assets/login.png)
+![Login User Mutation](/assets/login.png)
 
 ### Query All Users From Database
 
-    ![Query All Users](/assets/getUsers.png)
+![Query All Users](/assets/getUsers.png)
 
 ### Query User By ID
 
-    ![Query User By ID](/assets/getUserById.png)
+![Query User By ID](/assets/getUserById.png)
 
 > #### NOTE
 >
