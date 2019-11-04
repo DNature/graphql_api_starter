@@ -8,35 +8,38 @@
 
     # Install Dependencies
     npm install
+    npm install --prefix clients
 
     # Start Server
+    npm run dev
+
+    # Start Client
     npm start
 
-    # ***Results***
+    ***Results***
     # Connected 🚀 To MongoDB Successfully
     # 🚀 server running @ http://localhost:5000/graphql
+    # Client runs @ Localhost:3000
 ```
 
 ## Aditional Info
 
-: Dependencies
+    : Dependencies
 
-```
-
+```json
 {
-"apollo-server-express": "^2.9.7",
-"bcryptjs": "^2.4.3",
-"eslint": "^6.6.0",
-"esm": "^3.2.25",
-"express": "^4.17.1",
-"graphql-upload": "^8.1.0",
-"jsonwebtoken": "^8.5.1",
-"mongoose": "^5.7.7"
+  "apollo-server-express": "^2.9.7",
+  "bcryptjs": "^2.4.3",
+  "eslint": "^6.6.0",
+  "esm": "^3.2.25",
+  "express": "^4.17.1",
+  "graphql-upload": "^8.1.0",
+  "jsonwebtoken": "^8.5.1",
+  "mongoose": "^5.7.7"
 }
-
 ```
 
-: Dev Dependencies
+    : Dev Dependencies
 
 ```
 
@@ -65,6 +68,10 @@
 ### Query User By ID
 
 ![Query User By ID](/assets/getUserById.png)
+
+### Client React
+
+![File Upload UI](/assets/react-ui.png)
 
 > #### NOTE
 >
